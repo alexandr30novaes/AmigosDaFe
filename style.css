@@ -19,7 +19,8 @@ body {
     height: 100%;
     width: 11%;
     position: fixed;
-    transition: width 1s ease-in-out;
+    transition: width 0.6s ease-in-out;
+    background-color: var(--bg-black-100);
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
@@ -82,3 +83,10 @@ ul li.item-menu a .icon i {
     border-radius: 50%;
 }
 /*----------------------------Home Page----------------------------*/
+
+.container-content {
+    width: 89%;
+    height: 100vh;
+    margin-left: 11%;
+    background-color: var(--bg-black-900);
+}
