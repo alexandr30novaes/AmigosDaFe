@@ -90,3 +90,20 @@ ul li.item-menu a .icon i {
     margin-left: 11%;
     background-color: var(--bg-black-900);
 }
+
+
+/*----------------------------whats----------------------------*/
+.whats a{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    color: #35c40a;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.whats a:hover{
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+}
