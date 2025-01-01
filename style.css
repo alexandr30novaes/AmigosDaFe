@@ -26,6 +26,16 @@ body {
 .menu.expandir {
     width: 34vh;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.logo img {
+    width: 200px;
+    border-radius: 50%;
+}
 .button {
     display: flex;
     justify-content: center;
@@ -41,7 +51,7 @@ body {
     margin-top: 50px;
 }
 ul {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     list-style-type: none;
     padding: 0;
@@ -77,10 +87,6 @@ ul li.item-menu a .icon i {
 .menu.expandir .txt-menu {
     opacity: 1;
     pointer-events: auto;
-}
-.logo img {
-    width: 200px;
-    border-radius: 50%;
 }
 /*----------------------------Home Page----------------------------*/
 
