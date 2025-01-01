@@ -96,7 +96,11 @@ ul li.item-menu a .icon i {
     margin-left: 11%;
     background-color: var(--bg-black-900);
 }
-
+.home-page {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 80px;
+}
 
 /*----------------------------whats----------------------------*/
 .whats a{
@@ -105,7 +109,7 @@ ul li.item-menu a .icon i {
     right: 10px;
     color: #35c40a;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
     cursor: pointer;
     transition: all 0.6s ease;
 }
