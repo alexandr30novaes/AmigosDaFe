@@ -11,7 +11,7 @@ body {
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
     --color-11: #643fe9;
-    --color-12: #2383dd;
+    --color-12: #1055ebd2;
     --txt-color: #000000;
 }
 .position {
@@ -23,7 +23,7 @@ body {
     width: 11%;
     position: fixed;
     transition: width 0.6s ease-in-out;
-    background-color: var(--bg-black-90);
+    background-color: var(--bg-black-900);
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
@@ -71,7 +71,7 @@ ul {
     margin-left: 30px;
 }
 .item-menu a:hover {
-    background-color: var(--bg-black-900);
+    background-color: #fff;
 }
 
 ul li.item-menu a .icon {
@@ -96,8 +96,8 @@ ul li.item-menu a .icon i {
 /*----------------------------Home Page----------------------------*/
 
 .container-content {
-    width: 89%;
     height: 100vh;
+    background-color: var(--color-12);
 }
 .home-page {
     position: absolute;
