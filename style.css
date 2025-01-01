@@ -4,6 +4,7 @@
 }
 body {
     height: 400vh;
+    background-color: var(--bg-black-900);
 }
 :root {
     --bg-black-900: #f2f2fc;
@@ -94,7 +95,6 @@ ul li.item-menu a .icon i {
     width: 89%;
     height: 100vh;
     margin-left: 11%;
-    background-color: var(--bg-black-900);
 }
 .home-page {
     position: absolute;
@@ -132,7 +132,6 @@ ul li.item-menu a .icon i {
 /*----------------------------About page----------------------------*/
 .container-about {
     height: 100vh;
-    background-color: var(--bg-black-900);
 }
 .about {
     margin-left: 18%;
@@ -149,6 +148,10 @@ ul li.item-menu a .icon i {
     line-height: 25px;
     width: 90%;
 }
+
+
+
+
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
