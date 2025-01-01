@@ -113,8 +113,18 @@ ul li.item-menu a .icon i {
 /*----------------------------About page----------------------------*/
 .container-about {
     height: 100vh;
+    background-color: var(--bg-black-900);
 }
-
+.about {
+    margin-left: 18%;
+}
+.about h1 {
+    font-size: 30px;
+    font-family: 'Sour Gummy', sans-serif;
+}
+.about p {
+    font-size: 18px;
+}
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
