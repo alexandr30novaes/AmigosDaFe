@@ -99,7 +99,15 @@ ul li.item-menu a .icon i {
 .home-page {
     position: absolute;
     margin-left: 7%;
-    margin-top: 80px;
+    margin-top: 90px;
+}
+.home-page h1 {
+    font-size: 30px;
+    font-family: 'Sour Gummy', sans-serif;
+}
+.home-page h3 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------------------------whats----------------------------*/
