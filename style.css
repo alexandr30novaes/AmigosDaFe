@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 200vh;
+    height: 400vh;
 }
 :root {
     --bg-black-900: #f2f2fc;
@@ -108,6 +108,11 @@ ul li.item-menu a .icon i {
 .home-page h3 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+/*----------------------------About page----------------------------*/
+.container-about {
+    height: 100vh;
 }
 
 /*----------------------------whats----------------------------*/
