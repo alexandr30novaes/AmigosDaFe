@@ -14,14 +14,16 @@ body {
     --color-12: #2383dd;
     --txt-color: #000000;
 }
-
+.position {
+    margin-left: 18%;
+}
 /*----------------------------MENU----------------------------*/
 .menu {
     height: 100%;
     width: 11%;
     position: fixed;
     transition: width 0.6s ease-in-out;
-    background-color: var(--bg-black-100);
+    background-color: var(--bg-black-90);
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
@@ -35,7 +37,7 @@ body {
 }
 .logo img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 .button {
     display: flex;
@@ -96,11 +98,9 @@ ul li.item-menu a .icon i {
 .container-content {
     width: 89%;
     height: 100vh;
-    margin-left: 11%;
 }
 .home-page {
     position: absolute;
-    margin-left: 7%;
     margin-top: 90px;
 }
 .home-page h1 {
@@ -123,9 +123,6 @@ ul li.item-menu a .icon i {
 .container-about {
     height: 100vh;
 }
-.about {
-    margin-left: 18%;
-}
 .about h1 {
     font-size: 30px;
     font-family: 'Sour Gummy', sans-serif;
@@ -139,8 +136,73 @@ ul li.item-menu a .icon i {
     width: 90%;
 }
 
+/*----------------------------Activities page----------------------------*/
+.container-activities {
+    height: 100vh;
+}
+.activities h1 {
+    font-size: 30px;
+    font-family: 'sour gummy', sans-serif;
+}
+.activities p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-indent: 35px;
+    text-align: justify;
+    width: 75%;
+}
+.container-cards {
+    display: flex;
+    width: 75%;
+    height: 50%;
+    margin-left: 18%;
+    text-align: center;
+}
+.cards {
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    
+}
+.cards img {
+    width: 250px;
+    height: 250px;
+    border-radius: 1%;
+    margin-top: 5%;
+}
+.img-card {
+    display: flex;
+    margin-left: 25px;
+}
 
+.cards .img-card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
 
+.normal-image, .hover-image {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hover-image {
+    opacity: 0;
+}
+
+.img-card:hover .normal-image {
+    opacity: 0;
+}
+
+.img-card:hover .hover-image {
+    opacity: 1;
+}
 
 /*----------------------------whats----------------------------*/
 .whats a{
