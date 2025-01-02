@@ -29,9 +29,6 @@ body {
 .menu.expandir {
     width: 34vh;
 }
-.active {
-    background-color: var(--color-11);
-}
 .logo {
     display: flex;
     align-items: center;
