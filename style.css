@@ -111,7 +111,7 @@ ul li.item-menu a .icon i {
     font-family: 'Roboto', sans-serif;
 }
 .imagem-home {
-    margin-left: 50%;
+    margin-left: 55%;
 }
 .img-1 {
     position: absolute;
@@ -120,14 +120,14 @@ ul li.item-menu a .icon i {
 }
 .img-2 {
     position: absolute;
-    width: 18%;
+    width: 16%;
     margin-left: 250px;
-    margin-top: 150px;
+    margin-top: 170px;
 }
 .img-3 {
     position: absolute;
-    margin-top: 170px;
-    width: 19%;
+    margin-top: 180px;
+    width: 18%;
 }
 /*----------------------------About page----------------------------*/
 .container-about {
