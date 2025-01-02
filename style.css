@@ -29,6 +29,9 @@ body {
 .menu.expandir {
     width: 34vh;
 }
+.active {
+    background-color: var(--color-11);
+}
 .logo {
     display: flex;
     align-items: center;
@@ -97,7 +100,6 @@ ul li.item-menu a .icon i {
 
 .container-content {
     height: 100vh;
-    background-color: var(--color-12);
 }
 .home-page {
     position: absolute;
@@ -111,14 +113,25 @@ ul li.item-menu a .icon i {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-
-.img-1 {
-    width: 30%;
-    position: absolute;
+.imagem-home {
     margin-left: 50%;
-    margin-top: 15%;
 }
-
+.img-1 {
+    position: absolute;
+    width: 30%;
+    margin-top: 20%;
+}
+.img-2 {
+    position: absolute;
+    width: 18%;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.img-3 {
+    position: absolute;
+    margin-top: 170px;
+    width: 19%;
+}
 /*----------------------------About page----------------------------*/
 .container-about {
     height: 100vh;
@@ -189,7 +202,7 @@ ul li.item-menu a .icon i {
     position: absolute;
     width: 250px;
     height: 250px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 }
 
 .hover-image {
