@@ -21,9 +21,14 @@ body {
     opacity: 0;
     filter: blur(15px);
     transform: translatey(130%);
-    transition: all 1s ease;
+    transition: all 1.3s ease;
 }
-
+.anim {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translatex(130%);
+    transition: all 1.3s ease;
+}
 .show { /* Animação escroll*/
     opacity: 1;
     filter: blur(0);
