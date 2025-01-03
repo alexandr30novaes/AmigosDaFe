@@ -20,9 +20,10 @@ body {
 .hidden { /* Animação escroll*/
     opacity: 0;
     filter: blur(15px);
-    transform: translateX(-100%);
+    transform: translatey(130%);
     transition: all 1s ease;
 }
+
 .show { /* Animação escroll*/
     opacity: 1;
     filter: blur(0);
