@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 400vh;
+    height: 500vh;
     background-color: #fff;
 }
 :root {
@@ -16,6 +16,18 @@ body {
 }
 .position {
     margin-left: 18%;
+}
+.hidden { /* Animação escroll*/
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s ease;
+}
+.show { /* Animação escroll*/
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1.3s ease;
 }
 /*----------------------------MENU----------------------------*/
 .menu {
