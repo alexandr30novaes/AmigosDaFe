@@ -121,7 +121,7 @@ ul li.item-menu a .icon i {
     margin-top: 90px;
 }
 .home-page h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Sour Gummy', sans-serif;
 }
 .home-page h3 {
@@ -232,6 +232,10 @@ ul li.item-menu a .icon i {
     opacity: 1;
 }
 
+/*----------------------------Eventos----------------------------*/
+.container-eventos {
+    height: 100vh;
+}
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
@@ -239,11 +243,11 @@ ul li.item-menu a .icon i {
     right: 10px;
     color: #35c40a;
     text-align: center;
-    font-size: 55px;
+    font-size: 60px;
     cursor: pointer;
-    transition: all 0.6s ease;
+    transition: all 0.5s ease;
 }
 .whats a:hover{
     transform: scale(1.1);
-    transition: all 0.6s ease;
+    transition: all 0.5s ease;
 }
