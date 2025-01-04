@@ -240,11 +240,18 @@ ul li.item-menu a .icon i {
     font-family: 'sour gummy', sans-serif;
     font-size: 30px;
 }
+.eventos p {
+    width: 22%;
+    text-indent: 35px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    position: absolute;
+    font-size: 18px;
+}
 .img-pedestal img {
     position: absolute;
-    width: 180px;
-    margin-top: 30px;
-    margin-left: 60%;
+    width: 450px;
+    margin-left: 53%;
 
 }
 .wrapper {
@@ -253,7 +260,11 @@ ul li.item-menu a .icon i {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
+    margin-top: 55px;
     margin-left: 60%;
+    border-radius: 5px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     transform: translateX(-40%);
     position: absolute;
 }
