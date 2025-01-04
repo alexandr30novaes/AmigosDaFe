@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 500vh;
+    height: 550vh;
     background-color: #fff;
 }
 :root {
@@ -243,7 +243,7 @@ ul li.item-menu a .icon i {
 .img-pedestal img {
     position: absolute;
     width: 180px;
-    margin-top: 33px;
+    margin-top: 30px;
     margin-left: 60%;
 
 }
@@ -312,6 +312,18 @@ ul li.item-menu a .icon i {
     66.66% { transform: translateX(-400%); }
     83.33% { transform: translateX(-500%); }
     100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
+}
+/*----------------------------Doação----------------------------*/
+.container-doacao {
+    height: 100vh;
+}
+/*----------------------------end----------------------------*/
+.container-end {
+    height: 50vh;
+    background-color: black;
+}
+.end h1 {
+    color: white;
 }
 /*----------------------------whats----------------------------*/
 .whats a{
