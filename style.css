@@ -20,13 +20,13 @@ body {
 .hidden { /* Animação escroll*/
     opacity: 0;
     filter: blur(15px);
-    transform: translatey(130%);
+    transform: translatey(140%);
     transition: all 1.3s ease;
 }
 .anim {
     opacity: 0;
     filter: blur(15px);
-    transform: translatex(130%);
+    transform: translatex(140%);
     transition: all 1.3s ease;
 }
 .show { /* Animação escroll*/
