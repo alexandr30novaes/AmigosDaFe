@@ -54,7 +54,7 @@ body {
     margin-top: 5px;
 }
 .logo img {
-    width: 200px;
+    width: 400px;
     border-radius: 5%;
 }
 .button {
@@ -235,6 +235,83 @@ ul li.item-menu a .icon i {
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
     height: 100vh;
+}
+.eventos h1 {
+    font-family: 'sour gummy', sans-serif;
+    font-size: 30px;
+}
+.img-pedestal img {
+    position: absolute;
+    width: 180px;
+    margin-top: 33px;
+    margin-left: 60%;
+
+}
+.wrapper {
+    width: 800px;
+    height: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 3rem auto;
+    overflow: hidden;
+    margin-left: 60%;
+    transform: translateX(-40%);
+    position: absolute;
+}
+
+.wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(6, 100%); /* 6 colunas para 6 imagens */
+    height: 100%;
+    width: 100%; /* Ajuste para considerar todas as imagens */
+    animation: slider 50s ease-in-out infinite;
+    transition: transform 0.7s ease;
+    cursor: pointer;
+}
+
+.wrapper-holder div {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease;
+}
+
+.wrapper-holder div:hover {
+    transform: scale(1.1);
+}
+
+#slider-img-1 {
+    background-image: url(/IMG/card-02.jpg);
+}
+
+#slider-img-2 {
+    background-image: url(/IMG/card-2.jpg);
+}
+
+#slider-img-3 {
+    background-image: url(/IMG/card-02.jpg);
+}
+
+#slider-img-4 {
+    background-image: url(/IMG/card-2.jpg);
+}
+
+#slider-img-5 {
+    background-image: url(/IMG/card-02.jpg);
+}
+
+#slider-img-6 {
+    background-image: url(/IMG/card-2.jpg);
+}
+
+@keyframes slider {
+    0% { transform: translateX(0%); }
+    16.66% { transform: translateX(-100%); }
+    33.33% { transform: translateX(-200%); }
+    50% { transform: translateX(-300%); }
+    66.66% { transform: translateX(-400%); }
+    83.33% { transform: translateX(-500%); }
+    100% { transform: translateX(0%); } /* Volta para a primeira imagem sem espaço em branco */
 }
 /*----------------------------whats----------------------------*/
 .whats a{
