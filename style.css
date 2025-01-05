@@ -272,6 +272,8 @@ ul li.item-menu a .icon i {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
     transform: translateX(-40%);
     position: absolute;
 }
