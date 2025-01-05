@@ -4,7 +4,7 @@
 }
 body {
     height: 530vh;
-    background-color: #fff;
+    background-color: var(--bg-black-900);
 }
 :root {
     --bg-black-900: #f2f2fc;
