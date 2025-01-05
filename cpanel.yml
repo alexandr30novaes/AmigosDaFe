@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home2/gtpare02/public_html/CasaAmigosdaFe
-    - /bin/cp -R * $DEPLOYPATH/
