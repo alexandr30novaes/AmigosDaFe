@@ -2,5 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/gtpare02/public_html/AmigosdaFe
-    - /bin/cp -R * $DEPLOYPATH/
+    - /bin/cp -R images $DEPLOYPATH/
+    - /bin/cp style.css $DEPLOYPATH/
+    - /bin/cp script.js $DEPLOYPATH/
+    - /bin/cp index.html $DEPLOYPATH/
     
