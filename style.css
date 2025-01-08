@@ -15,7 +15,7 @@ body {
     --txt-color: #000000;
 }
 .position {
-    margin-left: 18%;
+    margin-left: 15%;
 }
 .hidden { /* Animação escroll*/
     opacity: 0;
@@ -38,14 +38,14 @@ body {
 /*----------------------------MENU----------------------------*/
 .menu {
     height: 100%;
-    width: 11%;
+    width: 7%;
     position: fixed;
     transition: width 0.6s ease-in-out;
     background-color: var(--bg-black-900);
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
-    width: 34vh;
+    width: 24vh;
 }
 .logo {
     display: flex;
@@ -54,8 +54,8 @@ body {
     margin-top: 5px;
 }
 .logo img {
-    width: 400px;
-    border-radius: 5%;
+    width: 250px;
+    border-radius: 50%;
 }
 .button {
     display: flex;
@@ -93,11 +93,11 @@ ul {
 }
 
 ul li.item-menu a .icon {
-    margin-left: 55px;
+    margin-left: 25px;
 }
 
 ul li.item-menu a .icon i {
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 30px;
 }
 
