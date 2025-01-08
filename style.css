@@ -357,3 +357,30 @@ ul li.item-menu a .icon i {
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
+
+/*----------------------------Responsividade----------------------------*/
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .logo img {
+        width: 120px;
+        margin-top: 10px;
+    }
+    .menu {
+        width: 22%;
+    }
+    ul li.item-menu a .icon {
+        margin-left: 5px;
+    }
+    ul li.item-menu a .icon i {
+        font-size: 20px;
+    }
+    .item-menu a {
+        padding: 20px 0 30px 1%;
+        margin-left: 12px;
+    }
+    .button{
+        display: none;
+    }
+}
