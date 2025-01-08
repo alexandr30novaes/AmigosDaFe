@@ -383,4 +383,29 @@ ul li.item-menu a .icon i {
     .button{
         display: none;
     }
+    .position {
+        margin-left: 25%;
+    }
+    .home-page h1 {
+        font-size: 20px;
+    }
+    .home-page h3 {
+        font-size: 15px;
+    }
+    .imagem-home {
+        margin-left: 80px;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .img-1 {
+        width: 180px;
+        margin-top: 210px;
+    }
+    .img-2 {
+        width: 110px;
+        margin-left: 80px;
+    }
+    .img-3 {
+        width: 130px;
+    }
 }
