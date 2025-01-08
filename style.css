@@ -268,7 +268,8 @@ ul li.item-menu a .icon i {
 .img-pedestal img {
     position: absolute;
     width: 300px;
-    margin-left: 47%;
+    margin-left: 630px;
+    margin-top: -10px;
 }
 .wrapper {
     width: 35%;
@@ -276,8 +277,8 @@ ul li.item-menu a .icon i {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: 35px;
-    margin-left: 710px;
+    margin-top: 25px;
+    margin-left: 750px;
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
