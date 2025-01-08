@@ -257,22 +257,21 @@ ul li.item-menu a .icon i {
 }
 .img-pedestal img {
     position: absolute;
-    width: 450px;
-    margin-left: 53%;
+    width: 350px;
+    margin-left: 47%;
 
 }
 .wrapper {
-    width: 800px;
-    height: 50%;
+    width: 35%;
+    height: 40%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     overflow: hidden;
-    margin-top: 55px;
-    margin-left: 60%;
+    margin-top: 40px;
+    margin-left: 53%;
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-   
     transform: translateX(-40%);
     position: absolute;
 }
