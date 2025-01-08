@@ -162,6 +162,7 @@ ul li.item-menu a .icon i {
 .about h1 {
     font-size: 30px;
     font-family: 'Sour Gummy', sans-serif;
+    margin-top: 50px;
 }
 .about p {
     font-family: 'Nunito', sans-serif;
@@ -179,6 +180,7 @@ ul li.item-menu a .icon i {
 .activities h1 {
     font-size: 30px;
     font-family: 'sour gummy', sans-serif;
+    margin-top: 50px;
 }
 .activities p {
     font-family: 'Nunito', sans-serif;
@@ -253,6 +255,7 @@ ul li.item-menu a .icon i {
 .eventos h1 {
     font-family: 'sour gummy', sans-serif;
     font-size: 30px;
+    margin-top: 50px;
 }
 .eventos p {
     width: 22%;
@@ -340,6 +343,11 @@ ul li.item-menu a .icon i {
 /*----------------------------Doação----------------------------*/
 .container-doacao {
     height: 100vh;
+}
+.container-doacao h1 {
+    font-family: 'sour gummy', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
 }
 /*----------------------------end----------------------------*/
 .container-end {
