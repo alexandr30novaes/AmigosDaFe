@@ -21,13 +21,13 @@ body {
     opacity: 0;
     filter: blur(15px);
     transform: translatey(140%);
-    transition: all 1.5s ease;
+    transition: all 2s ease;
 }
 .anim {
     opacity: 0;
     filter: blur(15px);
     transform: translatex(140%);
-    transition: all 1.5s ease;
+    transition: all 2s ease;
 }
 .show { /* Animação escroll*/
     opacity: 1;
@@ -114,12 +114,12 @@ ul li.item-menu a .icon i {
 /*----------------------------Home Page----------------------------*/
 
 .container-content {
-    height: 100vh;
+    height: 130vh;
 }
 .img-fundo img {
     position: absolute;
     z-index: -1;
-    height: 100%;
+    height: 130vh;
     width: 100%;
     margin-top: 0;
 }
@@ -146,12 +146,13 @@ ul li.item-menu a .icon i {
 .img-2 {
     position: absolute;
     width: 16%;
-    margin-left: 250px;
+    margin-left: 200px;
     margin-top: 170px;
 }
 .img-3 {
     position: absolute;
     margin-top: 180px;
+    margin-left: 20px;
     width: 18%;
 }
 /*----------------------------About page----------------------------*/
@@ -201,6 +202,12 @@ ul li.item-menu a .icon i {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
+}
+.cards h1 {
+    font-size: 20px;
+}
+.cards p {
+    font-size: 15px;
 }
 .cards img {
     width: 200px;
@@ -267,7 +274,7 @@ ul li.item-menu a .icon i {
     margin: 3rem auto;
     overflow: hidden;
     margin-top: 35px;
-    margin-left: 730px;
+    margin-left: 710px;
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;

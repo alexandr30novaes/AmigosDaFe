@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
-  });
+});
 
 // Animação escroll
 const elements = document.querySelectorAll('.hidden, .anim'); 
