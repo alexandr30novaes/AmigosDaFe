@@ -118,6 +118,22 @@ ul li.item-menu a .icon i {
     opacity: 1;
     pointer-events: auto;
 }
+.container-rede {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.icon-rede i {
+    font-size: 20px;
+    padding: 10px;
+    color: #1877F2
+}
+.icon-rede1 i {
+    font-size: 20px;
+    padding: 10px;
+    color: #E4405F;
+}
 /*----------------------------Home Page----------------------------*/
 
 .container-content {
