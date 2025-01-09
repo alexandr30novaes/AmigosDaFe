@@ -124,11 +124,11 @@ ul li.item-menu a .icon i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .icon-rede i {
     font-size: 25px;
-    padding: 10px;
+    padding: 30px;
     color: #1877F2;
     transition: all 0.5s ease;
     
@@ -400,7 +400,7 @@ ul li.item-menu a .icon i {
     right: 10px;
     color: #35c40a;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
