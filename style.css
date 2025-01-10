@@ -425,6 +425,41 @@ ul li.item-menu a .icon i {
     font-size: 30px;
     margin-top: 50px;
 }
+.container-carrosel-doacao {
+    width: 100vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinhamento superior */
+    position: relative;
+}
+.carrosel-doacao { 
+    position: absolute; 
+    left: 5px; /* Ajuste horizontal para a direita */ 
+    z-index: 2;
+}
+.carrosel-doacao img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.carrosel-dados {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: var(--bg-black-100);
+    justify-content: center; /* Alinhamento horizontal centralizado */ 
+    position: relative; 
+    left: 25px; /* Ajuste horizontal se necessário */
+}
+.carrosel-dados p {
+    width: 70%;
+    margin-left: 60px;
+}
 /*----------------------------end----------------------------*/
 .container-end {
     height: 30vh;
