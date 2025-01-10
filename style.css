@@ -432,6 +432,7 @@ ul li.item-menu a .icon i {
     justify-content: center;
     align-items: flex-start; /* Alinhamento superior */
     position: relative;
+    margin-left: 25%;
 }
 .carrosel-doacao { 
     position: absolute; 
