@@ -13,6 +13,8 @@ body {
     --bg-black-50: #e8dfec;
     --color-11: #643fe9;
     --color-12: #1055ebd2;
+    --color--13: #8f32d5;
+    --color--14:#dc48e1;
     --txt-color: #000000;
 }
 .position {
@@ -287,10 +289,11 @@ ul li.item-menu a .icon i {
     margin-top: 10px;
 } 
 .button-sobre a { 
+    width: 70px;
     display: inline-block; 
     padding: 10px 20px; 
-    color: #fff; 
-    background-color: #333; 
+    color: #ffffff; 
+    background-color: var(--color--13); 
     border: none; 
     cursor: pointer; 
     position: relative; 
@@ -305,7 +308,7 @@ ul li.item-menu a .icon i {
     left: 0; 
     height: 100%; 
     width: 0; 
-    background-color: var(--color-11);
+    background-color: var(--color--14);
     transition: width 0.6s; 
     z-index: 0; 
 } 
