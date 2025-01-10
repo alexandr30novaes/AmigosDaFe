@@ -46,7 +46,7 @@ body {
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
-    width: 20vh;
+    width: 22vh;
 }
 .logo {
     display: flex;
@@ -391,6 +391,7 @@ ul li.item-menu a .icon i {
     height: 30vh;
     background-color: black;
     color: #fff;
+    display: flex;
 }
 
 /*----------------------------whats----------------------------*/
