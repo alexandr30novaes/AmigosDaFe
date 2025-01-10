@@ -33,7 +33,7 @@ const observer = new IntersectionObserver((entries) => {
 
 elements.forEach((el) => observer.observe(el))
 
-//wrapper
+//wrapper carrosel
 const wrapperHolder = document.getElementById('wrapper-holder'); 
 
 let isHovered = false; 
