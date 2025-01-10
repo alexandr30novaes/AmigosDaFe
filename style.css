@@ -282,25 +282,42 @@ ul li.item-menu a .icon i {
 .img-card:hover .hover-image {
     opacity: 1;
 }
-.container-button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.button-sobre {
-    width: 90px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
+.container-button { 
+    text-align: center;  
+    margin-top: 10px;
+} 
+.button-sobre a { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: #fff; 
+    background-color: #333; 
+    border: none; 
+    cursor: pointer; 
+    position: relative; 
+    overflow: hidden; 
+    transition: color 0.4s; 
+    text-decoration: none; 
+} 
+.button-sobre a::before { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 0; 
     background-color: var(--color-11);
-}
-.button-sobre a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 17px;
-}
+    transition: width 0.6s; 
+    z-index: 0; 
+} 
+.button-sobre a:hover::before { 
+    width: 100%; 
+} 
+.button-sobre a span { 
+    position: relative; 
+    z-index: 1; 
+    transition: color 0.6s; 
+} 
+
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
     height: 100vh;
