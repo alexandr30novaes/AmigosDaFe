@@ -46,7 +46,7 @@ body {
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 .menu.expandir {
-    width: 22vh;
+    width: 20vh;
 }
 .logo {
     display: flex;
@@ -282,7 +282,25 @@ ul li.item-menu a .icon i {
 .img-card:hover .hover-image {
     opacity: 1;
 }
-
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button-sobre {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: var(--color-11);
+}
+.button-sobre a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
     height: 100vh;
@@ -392,6 +410,10 @@ ul li.item-menu a .icon i {
     background-color: black;
     color: #fff;
     display: flex;
+}
+.end a{
+    text-decoration: none;
+    color: #fff;
 }
 
 /*----------------------------whats----------------------------*/
