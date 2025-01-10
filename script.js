@@ -32,3 +32,26 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 elements.forEach((el) => observer.observe(el))
+
+//wrapper
+const wrapperHolder = document.getElementById('wrapper-holder'); 
+
+let isHovered = false; 
+
+wrapperHolder.addEventListener('mouseover', () => { 
+  wrapperHolder.style.animationPlayState = 'paused';
+   isHovered = true;
+}); 
+wrapperHolder.addEventListener('mouseout', () => { 
+  wrapperHolder.style.animationPlayState = 'running';
+   isHovered = false; 
+}); 
+wrapperHolder.addEventListener('mousemove', (e) => {
+   if (isHovered) { 
+    const boundingRect = wrapperHolder.getBoundingClientRect(); 
+    const mouseX = e.clientX - boundingRect.left; 
+    const percentage = mouseX / boundingRect.width; 
+    const offset = -percentage * (boundingRect.width * 5); // 5 porque são 6 imagens no total 
+    wrapperHolder.style.transform = `translateX(${offset}px)`; 
+  } 
+});

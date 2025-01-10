@@ -357,7 +357,7 @@ ul li.item-menu a .icon i {
     border-bottom: 3px solid black;
     transform: translateX(-40%);
     margin-left: 30%;
-    position: absolute;
+    position: rela;
 }
 
 .wrapper-holder {
@@ -365,7 +365,7 @@ ul li.item-menu a .icon i {
     grid-template-columns: repeat(6, 100%); /* 6 colunas para 6 imagens */
     height: 100%;
     width: 100%; /* Ajuste para considerar todas as imagens */
-    animation: slider 50s ease-in-out infinite;
+    animation: slider 20s ease-in-out infinite;
     transition: transform 0.7s ease;
     cursor: pointer;
 }
