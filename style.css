@@ -73,7 +73,6 @@ body {
 .button i {
     font-size: 2rem;
     transition: transform 0.8s, color 0.8s;
-    cursor: pointer;
     margin-top: 50px;
 }
 ul {
