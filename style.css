@@ -47,9 +47,11 @@ body {
     background-color: var(--bg-black-900);
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
-.menu.expandir {
-    width: 20vh;
-}
+.menu.expandir { 
+    width: 20vh; 
+    pointer-events: auto; /* Ativa os eventos de ponteiro quando expandido */ 
+} 
+
 .logo {
     display: flex;
     align-items: center;
@@ -420,12 +422,12 @@ ul li.item-menu a .icon i {
 .container-doacao {
     height: 100vh;
     overflow: hidden;
-    margin-left: 10%;
     background-color: #35c40a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 8%;
 }
 .container-doacao h1 {
     font-family: 'sour gummy', sans-serif;
@@ -435,7 +437,8 @@ ul li.item-menu a .icon i {
 .container-carrosel { 
     width: 80%; 
     overflow: hidden; 
-    position: relative; 
+    position: relative;
+    margin-top: 20px; 
 } 
 .carrosel { 
     display: flex; 

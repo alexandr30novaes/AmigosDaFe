@@ -6,7 +6,6 @@ btn.addEventListener("click", function() {
     menu.classList.toggle("expandir");
 });
 
-
 //scroll menu lateral
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
