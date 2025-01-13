@@ -419,47 +419,56 @@ ul li.item-menu a .icon i {
 /*----------------------------Doação----------------------------*/
 .container-doacao {
     height: 100vh;
+    overflow: hidden;
+    margin-left: 10%;
+    background-color: #35c40a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container-doacao h1 {
     font-family: 'sour gummy', sans-serif;
     font-size: 30px;
-    margin-top: 50px;
+    background-color: #E4405F;
 }
-.container-carrosel-doacao {
-    width: 100vh;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Alinhamento superior */
-    position: relative;
-    margin-left: 25%;
-}
-.carrosel-doacao { 
-    position: absolute; 
-    left: 5px; /* Ajuste horizontal para a direita */ 
-    z-index: 2;
-}
-.carrosel-doacao img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-}
-.carrosel-dados {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    background-color: var(--bg-black-100);
-    justify-content: center; /* Alinhamento horizontal centralizado */ 
+.container-carrosel { 
+    width: 80%; 
+    overflow: hidden; 
     position: relative; 
-    left: 25px; /* Ajuste horizontal se necessário */
-}
-.carrosel-dados p {
-    width: 70%;
-    margin-left: 60px;
+} 
+.carrosel { 
+    display: flex; 
+    transition: transform 0.5s ease; 
+    cursor: grab;
+    height: 80vh;
+} 
+.carrosel .card { 
+    min-width: 100%; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+} 
+.carrosel .card h2 { 
+    margin: 0; 
+} 
+.botao-anterior, .botao-proximo { 
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+} 
+.botao-anterior { 
+    left: 10px; 
+} 
+.botao-proximo { 
+    right: 10px; 
 }
 /*----------------------------end----------------------------*/
 .container-end {

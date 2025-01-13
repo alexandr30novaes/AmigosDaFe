@@ -55,3 +55,43 @@ wrapperHolder.addEventListener('mousemove', (e) => {
     wrapperHolder.style.transform = `translateX(${offset}px)`; 
   } 
 });
+////carrosel doacao
+let posicaoAtual = 0; 
+const carrossel = document.querySelector('.carrosel'); 
+const cards = document.querySelectorAll('.card'); 
+let isDragging = false; 
+let startX; 
+let scrollLeft; 
+
+function moverCarrossel(direcao) { 
+  posicaoAtual += direcao; 
+  if (posicaoAtual < 0) { 
+    posicaoAtual = cards.length - 1; 
+  } else if (posicaoAtual >= cards.length) { 
+    posicaoAtual = 0; 
+  } atualizarCarrossel(); 
+} 
+function atualizarCarrossel() { 
+  carrossel.style.transform = `translateX(-${posicaoAtual * 100}%)`; 
+} 
+carrossel.addEventListener('mousedown', (e) => { 
+  isDragging = true; 
+  carrossel.style.cursor = 'grabbing'; 
+  startX = e.pageX - carrossel.offsetLeft; 
+  scrollLeft = carrossel.scrollLeft; 
+}); 
+carrossel.addEventListener('mouseleave', () => { 
+  isDragging = false; 
+  carrossel.style.cursor = 'grab'; 
+}); 
+carrossel.addEventListener('mouseup', () => { 
+  isDragging = false; 
+  carrossel.style.cursor = 'grab'; 
+}); 
+carrossel.addEventListener('mousemove', (e) => { 
+  if (!isDragging) return; 
+  e.preventDefault(); 
+  const x = e.pageX - carrossel.offsetLeft; 
+  const walk = (x - startX) * 3; // Multiplicar pelo número de slides 
+  carrossel.scrollLeft = scrollLeft - walk; 
+});
