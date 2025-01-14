@@ -230,8 +230,10 @@ ul li.item-menu a .icon i {
 }
 .container-cards {
     display: flex;
-    width: 75%;
-    height: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 75vh;
     margin-left: 18%;
     text-align: center;
 }
