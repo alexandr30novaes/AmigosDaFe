@@ -74,6 +74,7 @@ body {
     font-size: 2rem;
     transition: transform 0.8s, color 0.8s;
     margin-top: 50px;
+    cursor: pointer;
 }
 ul {
     margin-top: 50px;
@@ -421,7 +422,6 @@ ul li.item-menu a .icon i {
 .container-doacao {
     height: 100vh;
     overflow: hidden;
-    background-color: #35c40a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -431,13 +431,13 @@ ul li.item-menu a .icon i {
 .container-doacao h1 {
     font-family: 'sour gummy', sans-serif;
     font-size: 30px;
-    background-color: #E4405F;
 }
 .container-carrosel { 
     width: 80%; 
     overflow: hidden; 
     position: relative;
     margin-top: 20px; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 } 
 .carrosel { 
     display: flex; 
@@ -451,7 +451,6 @@ ul li.item-menu a .icon i {
     padding: 20px; 
     text-align: center; 
     background-color: #f0f0f0; 
-    border: 1px solid #ccc; 
 } 
 .carrosel .card h2 { 
     margin: 0; 
@@ -465,6 +464,7 @@ ul li.item-menu a .icon i {
     border: none; 
     padding: 10px; 
     cursor: pointer; 
+    border-radius: 50%;
 } 
 .botao-anterior { 
     left: 10px; 
@@ -478,6 +478,17 @@ ul li.item-menu a .icon i {
     background-color: black;
     color: #fff;
     display: flex;
+}
+.container-end h1 {
+    font-family: 'sour gummy', sans-serif;
+    margin-top: 10px;
+}
+.link a {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
 }
 .end a{
     text-decoration: none;
