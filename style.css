@@ -116,7 +116,7 @@ ul li.item-menu a .icon i {
 
 ul li a .txt-menu {
     font-family: "Sour Gummy", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     transition: opacity 0.8s, pointer-events 0.8s;
     opacity: 0;
     pointer-events: none;
@@ -125,7 +125,6 @@ ul li a .txt-menu {
     opacity: 1;
     pointer-events: none;
 }
-
 
 .container-rede {
     display: flex;
@@ -237,7 +236,7 @@ ul li a .txt-menu {
     align-items: center;
     justify-content: center;
     width: 100vh;
-    height: 75vh;
+    height: 60vh;
     margin-left: 18%;
     text-align: center;
 }
