@@ -14,7 +14,8 @@ body {
     height: 20vh;
 }
 .home {
-    background-color: #35c40a;
+    width: 100%;
+    height: 20vh;
 }
 .img-fundo img {
     width: 100%;
@@ -22,10 +23,24 @@ body {
     position: absolute;
 }
 .logo-home img {
-    width: 200px;
+    width: 150px;
     margin-top: 10px;
     position: fixed;
 }
+.txt-home {
+    
+}
+.txt-home h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-family: 'sour gummy', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;

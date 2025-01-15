@@ -11,6 +11,7 @@ body {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
+    --fff--:#fff;
     --color-11: #643fe9;
     --color-12: #1055ebd2;
     --color--13: #8f32d5;
@@ -467,7 +468,7 @@ ul li a .txt-menu {
     background-color: rgba(0, 0, 0, 0.5); 
     color: white; 
     border: none; 
-    padding: 10px; 
+    padding: 11px; 
     cursor: pointer; 
     border-radius: 50%;
 } 
