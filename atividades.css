@@ -23,12 +23,10 @@ body {
     position: absolute;
 }
 .logo-home img {
-    width: 150px;
-    margin-top: 10px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -50px;
     position: fixed;
-}
-.txt-home {
-    
 }
 .txt-home h1 {
     position: relative;

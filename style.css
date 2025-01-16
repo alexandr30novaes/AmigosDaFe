@@ -60,8 +60,7 @@ body {
     margin-top: 5px;
 }
 .logo img {
-    width: 170px;
-    border-radius: 50%;
+    width: 100px;
 }
 .button {
     display: flex;
