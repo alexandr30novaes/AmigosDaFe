@@ -183,20 +183,21 @@ ul li a .txt-menu {
 }
 .img-1 {
     position: absolute;
-    width: 30%;
+    width: 20%;
     margin-top: 20%;
 }
 .img-2 {
     position: absolute;
-    width: 16%;
-    margin-left: 200px;
+    width: 12%;
+    margin-left: 220px;
     margin-top: 170px;
 }
 .img-3 {
     position: absolute;
     margin-top: 180px;
     margin-left: 20px;
-    width: 18%;
+    width: 15%;
+    z-index: 1;
 }
 /*----------------------------About page----------------------------*/
 .container-about {
