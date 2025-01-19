@@ -571,4 +571,10 @@ ul li a .txt-menu {
     .img-3 {
         width: 130px;
     }
+    .container-cards {
+        display: none;
+    }
+    .link {
+        display: none;
+    }
 }
