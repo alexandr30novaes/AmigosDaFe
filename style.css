@@ -43,6 +43,7 @@ body {
 .menu {
     height: 100vh;
     width: 80px;
+    overflow: hidden;
     position: fixed;
     transition: width 0.6s ease-in-out;
     background-color: var(--bg-black-900);
@@ -179,10 +180,10 @@ ul li a .txt-menu {
     font-family: 'Roboto', sans-serif;
 }
 .imagem-home {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     position: absolute;
-    margin-left: 55%;
+    margin-left: 65%;
     margin-top: 20%;
     display: flex;
     justify-content: center;
@@ -190,17 +191,17 @@ ul li a .txt-menu {
 }
 .img-1 {
     position: absolute;
-    width: 100%;
+    width: 90%;
 }
 .img-2 {
     position: absolute;
-    width: 60%;
+    width: 50%;
     margin-left: 150px;
 }
 .img-3 {
     position: absolute;
     margin-right: 90px;
-    width: 70%;
+    width: 60%;
     z-index: 1;
 }
 /*----------------------------About page----------------------------*/
