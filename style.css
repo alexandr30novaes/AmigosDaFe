@@ -585,4 +585,10 @@ ul li a .txt-menu {
         width: 150px;
         height: 200px;
     }
+    .end-link h1 {
+        font-size: 12px;
+    }
+    .end-link p {
+        font-size: 10px;
+    }
 }
