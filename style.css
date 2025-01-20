@@ -566,22 +566,6 @@ ul li a .txt-menu {
     .home-page h3 {
         font-size: 13px;
     }
-    .imagem-home {
-        margin-left: 150px;
-        margin-top: 150px;
-        position: absolute;
-    }
-    .img-1 {
-        width: 180px;
-        margin-top: 250px;
-    }
-    .img-2 {
-        width: 110px;
-        margin-left: 90px;
-    }
-    .img-3 {
-        width: 130px;
-    }
     .container-cards {
         display: none;
     }
