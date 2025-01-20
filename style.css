@@ -540,7 +540,7 @@ ul li a .txt-menu {
 }
 
 /*----------------------------Responsividade----------------------------*/
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     * {
         margin: 0;
         padding: 0;
