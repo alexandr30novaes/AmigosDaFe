@@ -6,4 +6,5 @@ deployment:
     - /bin/cp ./style.css $DEPLOYPATH/
     - /bin/cp ./script.js $DEPLOYPATH/
     - /bin/cp ./index.html $DEPLOYPATH/
-    
+    - /bin/cp ./atividades.html $DEPLOYPATH/
+    - /bin/cp ./atividades.css $DEPLOYPATH/

@@ -51,7 +51,7 @@ body {
     align-items: center;
 }
 .atividade-creche img {
-    width: 250px;
+    width: 16%;
     margin-left: 50px;
 }
 .atividade-creche p {
@@ -95,10 +95,10 @@ body {
     margin-top: 10px;
 }
 .link {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .patrocino {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .link a {
     display: flex;
