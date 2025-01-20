@@ -592,4 +592,7 @@ ul li a .txt-menu {
     .whats {
         display: none;
     }
+    .container-end {
+        display: none;
+    }
 }
