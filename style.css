@@ -246,6 +246,7 @@ ul li a .txt-menu {
     height: 60vh;
     margin-left: 18%;
     text-align: center;
+    background-color: red;
 }
 .cards {
     width: 250px;
@@ -568,6 +569,8 @@ ul li a .txt-menu {
     }
     .container-cards {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 }
