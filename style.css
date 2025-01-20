@@ -194,12 +194,12 @@ ul li a .txt-menu {
 }
 .img-2 {
     position: absolute;
-    width: 50%;
+    width: 60%;
     margin-left: 150px;
 }
 .img-3 {
     position: absolute;
-   margin-right: 50px;
+    margin-right: 90px;
     width: 70%;
     z-index: 1;
 }
