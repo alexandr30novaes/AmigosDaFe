@@ -588,4 +588,7 @@ ul li a .txt-menu {
         width: 150px;
         height: 200px;
     }
+    .whats {
+        display: none;
+    }
 }
