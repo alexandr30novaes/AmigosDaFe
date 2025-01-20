@@ -183,7 +183,7 @@ ul li a .txt-menu {
     width: 30%;
     height: 50%;
     position: absolute;
-    margin-left: 65%;
+    margin-left: 50%;
     margin-top: 20%;
     display: flex;
     justify-content: center;
@@ -571,7 +571,7 @@ ul li a .txt-menu {
         display: none;
     }
     .position {
-        margin-left: 15%;
+        margin-left: 25%;
     }
     .home-page h1 {
         font-size: 20px;
