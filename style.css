@@ -524,6 +524,7 @@ ul li a .txt-menu {
         padding: 0;
     }
     body {
+        height: 550vh;
         overflow-x: hidden;
     }
     .logo img {
@@ -557,20 +558,20 @@ ul li a .txt-menu {
         font-size: 20px;
     }
     .home-page h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
     .imagem-home {
-        margin-left: 80px;
+        margin-left: 150px;
         margin-top: 150px;
         position: absolute;
     }
     .img-1 {
         width: 180px;
-        margin-top: 210px;
+        margin-top: 250px;
     }
     .img-2 {
         width: 110px;
-        margin-left: 80px;
+        margin-left: 90px;
     }
     .img-3 {
         width: 130px;
