@@ -246,7 +246,6 @@ ul li a .txt-menu {
     height: 60%;
     margin-left: 15%;
     text-align: center;
-    background-color: #35c40a;
 }
 .cards {
     width: 250px;
@@ -255,6 +254,8 @@ ul li a .txt-menu {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
+    margin-left: 30px;
+    margin-top: 10px;
 }
 .cards h1 {
     font-size: 20px;
