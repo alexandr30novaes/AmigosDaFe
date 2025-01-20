@@ -545,9 +545,6 @@ ul li a .txt-menu {
         margin: 0;
         padding: 0;
     }
-    body {
-        overflow-x: hidden;
-    }
     .logo img {
         width: 70px;
         margin-top: 10px;
