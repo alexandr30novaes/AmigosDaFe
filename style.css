@@ -208,7 +208,6 @@ ul li a .txt-menu {
 /*----------------------------About page----------------------------*/
 .container-about {
     height: 100vh;
-    background-color: #643fe9;
 }
 .about h1 {
     font-size: 30px;
@@ -226,7 +225,6 @@ ul li a .txt-menu {
 /*----------------------------Activities page----------------------------*/
 .container-activities {
     height: 100vh;
-    background-color: #e0810d;
 }
 .activities h1 {
     font-size: 30px;
@@ -342,7 +340,6 @@ ul li a .txt-menu {
     height: 100vh;
     margin-top: 50px;
     margin-left: 15%;
-    background-color: #dc48e1;
 }
 .eventos h1 {
     font-family: 'sour gummy', sans-serif;
@@ -442,7 +439,6 @@ ul li a .txt-menu {
     justify-content: center;
     align-items: center;
     margin-left: 8%;
-    background-color: #643fe9;
 }
 .container-doacao h1 {
     font-family: 'sour gummy', sans-serif;
@@ -499,7 +495,6 @@ ul li a .txt-menu {
 .end-link {
     display: flex;
     width: 60%;
-    background-color: red;
 }
 .container-end h1 {
     font-family: 'sour gummy', sans-serif;
@@ -588,9 +583,6 @@ ul li a .txt-menu {
     .cards {
         width: 150px;
         height: 200px;
-    }
-    .whats {
-        display: none;
     }
     .container-end {
         display: none;
