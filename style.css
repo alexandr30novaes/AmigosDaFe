@@ -584,4 +584,8 @@ ul li a .txt-menu {
         justify-content: center;
         flex-direction: column;
     }
+    .cards {
+        width: 150px;
+        height: 200px;
+    }
 }
