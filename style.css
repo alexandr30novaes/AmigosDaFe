@@ -527,11 +527,15 @@ ul li a .txt-menu {
         overflow-x: hidden;
     }
     .logo img {
-        width: 120px;
+        width: 70px;
         margin-top: 10px;
     }
     .menu {
-        width: 22%;
+        max-width: 60px;
+        position: fixed;
+    }
+    .txt-menu {
+        display: none;
     }
     ul li.item-menu a .icon {
         margin-left: 5px;
@@ -540,7 +544,7 @@ ul li a .txt-menu {
         font-size: 20px;
     }
     .item-menu a {
-        padding: 20px 0 30px 1%;
+        padding: 10px 0 10px 1%;
         margin-left: 12px;
     }
     .button{
@@ -574,7 +578,10 @@ ul li a .txt-menu {
     .container-cards {
         display: none;
     }
-    .link {
+    .container-end {
+        display: none;
+    }
+    .whats {
         display: none;
     }
 }
