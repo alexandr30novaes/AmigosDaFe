@@ -242,10 +242,11 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
-    height: 70%;
-    margin-left: 18%;
+    width: 60%;
+    height: 60%;
+    margin-left: 15%;
     text-align: center;
+    background-color: #35c40a;
 }
 .cards {
     width: 250px;
