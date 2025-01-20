@@ -566,13 +566,5 @@ ul li a .txt-menu {
     .home-page h3 {
         font-size: 13px;
     }
-    .container-cards {
-        display: none;
-    }
-    .container-end {
-        display: none;
-    }
-    .whats {
-        display: none;
-    }
+    
 }
