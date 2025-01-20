@@ -242,8 +242,8 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vh;
-    height: 60vh;
+    width: 70%;
+    height: 70%;
     margin-left: 18%;
     text-align: center;
     background-color: red;
@@ -251,7 +251,6 @@ ul li a .txt-menu {
 .cards {
     width: 250px;
     height: 400px;
-    margin-left: 50px;
     border-radius: 1%;
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
