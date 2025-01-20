@@ -180,8 +180,8 @@ ul li a .txt-menu {
     font-family: 'Roboto', sans-serif;
 }
 .imagem-home {
-    width: 400px;
-    height: 500px;
+    width: 30%;
+    height: 50%;
     position: absolute;
     margin-left: 65%;
     margin-top: 20%;
