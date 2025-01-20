@@ -246,7 +246,6 @@ ul li a .txt-menu {
     height: 70%;
     margin-left: 18%;
     text-align: center;
-    background-color: red;
 }
 .cards {
     width: 250px;
@@ -490,10 +489,21 @@ ul li a .txt-menu {
     background-color: black;
     color: #fff;
     display: flex;
+    justify-content: center;
+}
+.end-link {
+    display: flex;
+    width: 80%;
 }
 .container-end h1 {
     font-family: 'sour gummy', sans-serif;
     margin-top: 10px;
+}
+.link {
+    margin-left: 20%;
+}
+.patrocino {
+    margin-left: 20%;
 }
 .link a {
     display: flex;
