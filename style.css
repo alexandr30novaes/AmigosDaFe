@@ -30,13 +30,7 @@ body {
 .anim {
     opacity: 0;
     filter: blur(15px);
-    transform: translatex(100%);
-    transition: all 1s ease;
-}
-.txt {
-    opacity: 0;
-    filter: blur(15px);
-    transform: translateX(-100%);
+    transform: translatex(-100%);
     transition: all 1s ease;
 }
 .show { /* Animação escroll*/
