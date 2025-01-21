@@ -158,7 +158,7 @@ ul li a .txt-menu {
 /*----------------------------Home Page----------------------------*/
 
 .container-content {
-    height: 120vh;
+    height: 105vh;
 }
 .img-fundo img {
     position: absolute;
@@ -567,6 +567,18 @@ ul li a .txt-menu {
     }
     .button{
         display: none;
+    }
+    /*----------------------------sobre page----------------------------*/
+    .container-about {
+        height: 240vh;
+    }
+    .about h1 {
+        font-size: 16px;
+    }
+    .about p {
+        font-size: 12px;
+        line-height: 17px;
+
     }
     /*----------------------------home page----------------------------*/
     .position {
