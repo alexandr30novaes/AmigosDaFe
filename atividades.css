@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 200vh;
+    height: 180vh;
     background-color: var(--bg-black-900);
     overflow-x: hidden;
 }
@@ -96,7 +96,7 @@ body {
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
-    bottom: 10px;
+    bottom: 1px;
     right: 10px;
     color: #35c40a;
     text-align: center;
@@ -141,4 +141,22 @@ body {
 .end a{
     text-decoration: none;
     color: #fff;
+}
+
+/*----------------------------responsividade----------------------------*/
+@media (max-width: 414px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /*----------------------------end----------------------------*/
+    .end-link h1 {
+        font-size: 12px;
+    }
+    .end-link p {
+        font-size: 10px;
+    }
+    .end-link a {
+        font-size: 10px;
+    }
 }

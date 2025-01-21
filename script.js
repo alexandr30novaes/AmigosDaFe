@@ -18,7 +18,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Animação escroll
-const elements = document.querySelectorAll('.hidden, .anim'); 
+const elements = document.querySelectorAll('.hidden, .anim, .anim-txt'); 
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {

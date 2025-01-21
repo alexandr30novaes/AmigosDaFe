@@ -25,13 +25,19 @@ body {
     opacity: 0;
     filter: blur(15px);
     transform: translatey(100%);
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .anim {
     opacity: 0;
     filter: blur(15px);
     transform: translatex(100%);
-    transition: all 2s ease;
+    transition: all 1s ease;
+}
+.anim-txt {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s ease;
 }
 .show { /* Animação escroll*/
     opacity: 1;
@@ -523,7 +529,7 @@ ul li a .txt-menu {
 /*----------------------------whats----------------------------*/
 .whats a{
     position: fixed;
-    bottom: 10px;
+    bottom: 1px;
     right: 10px;
     color: #35c40a;
     text-align: center;
@@ -570,7 +576,7 @@ ul li a .txt-menu {
     }
     /*----------------------------sobre page----------------------------*/
     .container-about {
-        height: 120vh;
+        height: 130vh;
     }
     .about h1 {
         font-size: 16px;
