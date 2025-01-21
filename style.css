@@ -33,10 +33,10 @@ body {
     transform: translatex(100%);
     transition: all 1s ease;
 }
-.anim-txt {
+.txt {
     opacity: 0;
     filter: blur(15px);
-    transform: translatey(100%);
+    transform: translateX(-100%);
     transition: all 1s ease;
 }
 .show { /* Animação escroll*/
