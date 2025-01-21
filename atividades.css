@@ -7,6 +7,17 @@ body {
     background-color: var(--bg-black-900);
     overflow-x: hidden;
 }
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --fff--:#fff;
+    --color-11: #643fe9;
+    --color-12: #1055ebd2;
+    --color--13: #8f32d5;
+    --color--14:#dc48e1;
+    --txt-color: #000000;
+}
 
 /*----------------------------home----------------------------*/
 .container-home {
