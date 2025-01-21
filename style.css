@@ -541,7 +541,8 @@ ul li a .txt-menu {
     * {
         margin: 0;
         padding: 0;
-    } 
+    }
+    /*----------------------------menu----------------------------*/ 
     .logo img {
         width: 70px;
         margin-top: 10px;
@@ -567,6 +568,7 @@ ul li a .txt-menu {
     .button{
         display: none;
     }
+    /*----------------------------home page----------------------------*/
     .position {
         margin-left: 25%;
     }
@@ -576,6 +578,7 @@ ul li a .txt-menu {
     .home-page h3 {
         font-size: 13px;
     }
+    /*----------------------------atividades page----------------------------*/
     .container-cards {
         display: flex;
         align-items: center;
@@ -586,6 +589,7 @@ ul li a .txt-menu {
         width: 150px;
         height: 200px;
     }
+    /*----------------------------end----------------------------*/
     .end-link h1 {
         font-size: 12px;
     }
@@ -594,5 +598,9 @@ ul li a .txt-menu {
     }
     .end-link a {
         font-size: 10px;
+    }
+    /*----------------------------whats----------------------------*/
+    .whats a {
+        font-size: 50px;
     }
 }

@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 230vh;
+    height: 200vh;
     background-color: var(--bg-black-900);
     overflow-x: hidden;
 }
@@ -34,9 +34,9 @@ body {
     position: absolute;
 }
 .logo-home img {
-    width: 100px;
+    width: 80px;
     margin-left: 10px;
-    margin-top: -70px;
+    margin-top: -60px;
     position: fixed;
 }
 .txt-home h1 {
