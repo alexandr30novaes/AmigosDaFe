@@ -639,18 +639,20 @@ ul li a .txt-menu {
         font-size: 12px;
     }
     /*----------------------------eventos----------------------------*/
+    .container-baner {
+        width: 250px;
+        height: 40vh;
+    }
     .wrapper {
         width: 200px;
         height: 250px;
         margin-top: 500px;
-        display: none;
         
     }
     .pedestal {
         width: 100px;
         height: 250px;
         margin-top: 50px;
-        display: none;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
