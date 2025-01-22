@@ -645,12 +645,14 @@ ul li a .txt-menu {
         width: 200px;
         height: 250px;
         margin-top: 500px;
+        display: none;
         
     }
     .pedestal {
         width: 100px;
         height: 250px;
         margin-top: 50px;
+        display: none;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
