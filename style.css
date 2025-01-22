@@ -208,7 +208,7 @@ ul li a .txt-menu {
 }
 /*----------------------------About page----------------------------*/
 .container-about {
-    height: 100vh;
+    height: 105vh;
 }
 .about h1 {
     font-size: 30px;
@@ -340,8 +340,7 @@ ul li a .txt-menu {
 
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
-    height: 160vh;
-    margin-top: 50px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,10 +363,10 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .pedestal img {
-    height: 75vh;
+    height: 73vh;
 }
 
 .container-baner {
