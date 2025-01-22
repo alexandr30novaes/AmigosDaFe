@@ -340,7 +340,7 @@ ul li a .txt-menu {
 
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
-    height: 100vh;
+    height: 160vh;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -364,31 +364,28 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 155px;
+    margin-top: 30px;
 }
 .pedestal img {
     height: 75vh;
 }
 
 .container-baner {
-    height: 80%;
-    width: 90%;
+    height: 60vh;
+    width: 80vh;
+    position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .wrapper {
     width: 500px;
-    height: 350px;
+    height: 40vh;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     overflow: hidden;
     border-radius: 5px;
     border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    transform: translateX(-40%);
-    margin-left: 30%;
-    margin-top: -55%;
-    position: relative;
+    border-bottom: 3px solid black;  
 }
 
 .wrapper-holder {
