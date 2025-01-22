@@ -185,7 +185,7 @@ ul li a .txt-menu {
     height: 50%;
     position: absolute;
     margin-left: 60%;
-    margin-top: 20%;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -600,7 +600,15 @@ ul li a .txt-menu {
     }
     .cards {
         width: 150px;
-        height: 200px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-card img {
+        width: 70px;
+        height: 70px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
@@ -614,6 +622,6 @@ ul li a .txt-menu {
     }
     /*----------------------------whats----------------------------*/
     .whats a {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
