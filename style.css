@@ -340,10 +340,6 @@ ul li a .txt-menu {
 /*----------------------------Eventos----------------------------*/
 .container-eventos {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: red;
 }
 .eventos h1 {
     font-family: 'sour gummy', sans-serif;
@@ -355,6 +351,12 @@ ul li a .txt-menu {
     font-family: 'Nunito', sans-serif;
     text-align: justify;
     font-size: 15px;
+}
+.container-carrosel-eventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35c40a;
 }
 .pedestal {
     height: 500px;
@@ -368,12 +370,13 @@ ul li a .txt-menu {
 }
 
 .container-baner {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #643fe9;
 }
 .wrapper {
     width: 500px;
@@ -383,7 +386,7 @@ ul li a .txt-menu {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black; 
-    margin-top: 230px; 
+    margin-top: -105px;
 }
 
 .wrapper-holder {
@@ -650,7 +653,7 @@ ul li a .txt-menu {
     .wrapper {
         width: 100px;
         height: 150px;
-        margin-top: 450px;
+        margin-top: 550px;
         
     }
     .pedestal {
