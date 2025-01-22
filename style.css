@@ -644,11 +644,14 @@ ul li a .txt-menu {
         padding: 5px 6px;
         font-size: 12px;
     }
-
+    /*----------------------------end----------------------------*/
     .wrapper {
         width: 200px;
         height: 300px;
         margin-top: 80px;
+    }
+    .pedestal {
+        display: block;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
