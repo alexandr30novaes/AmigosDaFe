@@ -346,6 +346,7 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: red;
 }
 .eventos h1 {
     font-family: 'sour gummy', sans-serif;
