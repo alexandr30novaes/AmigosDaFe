@@ -571,7 +571,7 @@ ul li a .txt-menu {
     }
     /*----------------------------sobre page----------------------------*/
     .container-about {
-        height: 130vh;
+        height: 140vh;
     }
     .about h1 {
         font-size: 16px;
@@ -592,11 +592,20 @@ ul li a .txt-menu {
         font-size: 13px;
     }
     /*----------------------------atividades page----------------------------*/
+    .container-activities {
+        height: 120vh;
+    }
+    .activities h1 {
+        font-size: 20px;
+    }
+    .activities p {
+        font-size: 12px;
+    }
     .container-cards {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+        margin-top: 60px;
+        margin-left: 90px;
     }
     .cards {
         width: 150px;
@@ -605,10 +614,21 @@ ul li a .txt-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     .img-card img {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
+    }
+    .cards h1 {
+        font-size: 15px;
+    }
+    .cards p {
+        font-size: 12px;
+    }
+    .button-sobre a {
+        padding: 5px 6px;
+        font-size: 12px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
