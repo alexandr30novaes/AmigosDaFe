@@ -356,7 +356,6 @@ ul li a .txt-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #35c40a;
 }
 .pedestal {
     height: 500px;
@@ -366,7 +365,8 @@ ul li a .txt-menu {
     justify-content: center;
 }
 .pedestal img {
-    height: 550px;
+    height: 650px;
+    margin-top: 70px;
 }
 
 .container-baner {
@@ -376,7 +376,6 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #643fe9;
 }
 .wrapper {
     width: 500px;
@@ -653,13 +652,13 @@ ul li a .txt-menu {
     .wrapper {
         width: 100px;
         height: 150px;
-        margin-top: 550px;
+        margin-top: 85px;
         
     }
     .pedestal {
         width: 100px;
         height: 50px;
-        margin-top: 110px;
+        margin-top: 80px;
     }
     .pedestal img {
         height: 300px;
