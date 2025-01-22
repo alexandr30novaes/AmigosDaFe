@@ -159,7 +159,7 @@ ul li a .txt-menu {
 /*----------------------------Home Page----------------------------*/
 
 .container-content {
-    height: 105vh;
+    height: 100vh;
 }
 .img-fundo img {
     position: absolute;
@@ -234,8 +234,6 @@ ul li a .txt-menu {
 .activities h1 {
     font-size: 30px;
     font-family: 'sour gummy', sans-serif;
-    margin-top: 40px;
-    position: absolute;
 }
 .activities p {
     font-family: 'Nunito', sans-serif;
@@ -243,7 +241,6 @@ ul li a .txt-menu {
     text-indent: 35px;
     text-align: justify;
     width: 90%;
-    margin-top: 60px;
 }
 .container-cards {
     display: flex;
@@ -347,7 +344,6 @@ ul li a .txt-menu {
 .container-eventos {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -389,7 +385,7 @@ ul li a .txt-menu {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black; 
-    margin-top: 18px; 
+    margin-top: 190px; 
 }
 
 .wrapper-holder {
@@ -644,14 +640,17 @@ ul li a .txt-menu {
         padding: 5px 6px;
         font-size: 12px;
     }
-    /*----------------------------end----------------------------*/
+    /*----------------------------eventos----------------------------*/
     .wrapper {
         width: 200px;
-        height: 300px;
-        margin-top: 80px;
+        height: 250px;
+        margin-top: 500px;
+        
     }
     .pedestal {
-        display: none;
+        width: 100px;
+        height: 250px;
+        margin-top: 50px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
