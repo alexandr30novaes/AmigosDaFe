@@ -213,6 +213,8 @@ ul li a .txt-menu {
 .about h1 {
     font-size: 30px;
     font-family: 'Sour Gummy', sans-serif;
+    margin-top: 30px;
+    position: absolute;
 }
 .about p {
     font-family: 'Nunito', sans-serif;
@@ -221,6 +223,7 @@ ul li a .txt-menu {
     text-align: justify;
     line-height: 24px;
     width: 90%;
+    margin-top: 60px;
 }
 
 /*----------------------------Activities page----------------------------*/
@@ -231,7 +234,8 @@ ul li a .txt-menu {
 .activities h1 {
     font-size: 30px;
     font-family: 'sour gummy', sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
+    position: absolute;
 }
 .activities p {
     font-family: 'Nunito', sans-serif;
@@ -239,6 +243,7 @@ ul li a .txt-menu {
     text-indent: 35px;
     text-align: justify;
     width: 90%;
+    margin-top: 60px;
 }
 .container-cards {
     display: flex;
@@ -363,7 +368,6 @@ ul li a .txt-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
 }
 .pedestal img {
     height: 73vh;
@@ -384,7 +388,8 @@ ul li a .txt-menu {
     overflow: hidden;
     border-radius: 5px;
     border-top: 3px solid black;
-    border-bottom: 3px solid black;  
+    border-bottom: 3px solid black; 
+    margin-top: 18px; 
 }
 
 .wrapper-holder {
@@ -638,6 +643,12 @@ ul li a .txt-menu {
     .button-sobre a {
         padding: 5px 6px;
         font-size: 12px;
+    }
+
+    .wrapper {
+        width: 200px;
+        height: 300px;
+        margin-top: 80px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
