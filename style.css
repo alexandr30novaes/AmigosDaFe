@@ -651,7 +651,7 @@ ul li a .txt-menu {
         margin-top: 80px;
     }
     .pedestal {
-        display: block;
+        display: none;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
