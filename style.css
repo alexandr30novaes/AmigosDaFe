@@ -364,17 +364,16 @@ ul li a .txt-menu {
     justify-content: center;
 }
 .pedestal img {
-    height: 73vh;
+    height: 550px;
 }
 
 .container-baner {
-    height: 60vh;
-    width: 80vh;
+    height: 400px;
+    width: 400px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #40e4d1;
 }
 .wrapper {
     width: 500px;
@@ -384,7 +383,7 @@ ul li a .txt-menu {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black; 
-    margin-top: 190px; 
+    margin-top: 230px; 
 }
 
 .wrapper-holder {
@@ -552,6 +551,9 @@ ul li a .txt-menu {
         margin: 0;
         padding: 0;
     }
+    body {
+        overflow-x: hidden;
+    }
     /*----------------------------menu----------------------------*/ 
     .logo img {
         width: 70px;
@@ -641,19 +643,23 @@ ul li a .txt-menu {
     }
     /*----------------------------eventos----------------------------*/
     .container-baner {
-        width: 250px;
-        height: 40vh;
+        width: 100px;
+        height: 90px;
+        position: absolute;
     }
     .wrapper {
-        width: 200px;
-        height: 250px;
-        margin-top: 500px;
+        width: 100px;
+        height: 150px;
+        margin-top: 750px;
         
     }
     .pedestal {
         width: 100px;
-        height: 250px;
-        margin-top: 50px;
+        height: 50px;
+        margin-top: 110px;
+    }
+    .pedestal img {
+        height: 300px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
