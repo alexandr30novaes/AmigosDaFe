@@ -360,15 +360,15 @@ ul li a .txt-menu {
     position: relative;
 }
 .pedestal {
-    height: 500px;
+    height: 530px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .pedestal img {
-    height: 650px;
-    margin-top: 70px;
+    height: 100%;
+    margin-top: 17%;
 }
 
 .container-baner {
@@ -387,7 +387,6 @@ ul li a .txt-menu {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black; 
-    margin-top: -20%;
 }
 
 .wrapper-holder {
@@ -668,6 +667,7 @@ ul li a .txt-menu {
     }
     .pedestal img {
         height: 300px;
+        margin-top: 30%;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
