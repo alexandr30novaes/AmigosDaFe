@@ -360,7 +360,7 @@ ul li a .txt-menu {
     position: relative;
 }
 .pedestal {
-    height: 530px;
+    height: 75vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -368,7 +368,7 @@ ul li a .txt-menu {
 }
 .pedestal img {
     height: 100%;
-    margin-top: 17%;
+    margin-top: 19%;
 }
 
 .container-baner {
@@ -646,16 +646,17 @@ ul li a .txt-menu {
     }
     /*----------------------------eventos----------------------------*/
     .container-carrosel-eventos {
-        width: 50%;
+        width: 60%;
         margin-left: 30%;
+        margin-top: 20%;
     }
     .container-baner {
-        width: 100px;
+        width: 180px;
         height: 90px;
         position: absolute;
     }
     .wrapper {
-        width: 100px;
+        width: 180px;
         height: 150px;
         margin-top: 85px;
         
@@ -668,6 +669,12 @@ ul li a .txt-menu {
     .pedestal img {
         height: 300px;
         margin-top: 70%;
+    }
+
+    /*----------------------------doação----------------------------*/
+    .container-carrosel {
+        width: 70%;
+        height: 60%;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
