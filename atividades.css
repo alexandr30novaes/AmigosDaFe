@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    height: 180vh;
+    height: 150vh;
     background-color: var(--bg-black-900);
     overflow-x: hidden;
 }
