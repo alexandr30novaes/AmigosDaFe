@@ -226,7 +226,6 @@ ul li a .txt-menu {
 /*----------------------------Activities page----------------------------*/
 .container-activities {
     height: 100vh;
-    background-color: var(--color--13);
 }
 .activities h1 {
     font-size: 30px;
