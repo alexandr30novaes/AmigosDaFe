@@ -372,8 +372,8 @@ ul li a .txt-menu {
 }
 
 .container-baner {
-    height: 300px;
-    width: 500px;
+    height: 50%;
+    width: 60%;
     position: absolute;
     display: flex;
     align-items: center;
@@ -387,7 +387,7 @@ ul li a .txt-menu {
     border-radius: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black; 
-    margin-top: -21%;
+    margin-top: -20%;
 }
 
 .wrapper-holder {
