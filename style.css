@@ -209,6 +209,7 @@ ul li a .txt-menu {
 /*----------------------------About page----------------------------*/
 .container-about {
     height: 100vh;
+    background-color: red;
 }
 .about h1 {
     font-size: 30px;
