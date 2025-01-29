@@ -585,13 +585,14 @@ ul li a .txt-menu {
     }
     /*----------------------------sobre page----------------------------*/
     .container-about {
-        height: 140vh;
+        height: 150vh;
+        margin-top: 100px;
     }
     .about h1 {
         font-size: 16px;
     }
     .about p {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 17px;
 
     }
@@ -608,12 +609,13 @@ ul li a .txt-menu {
     /*----------------------------atividades page----------------------------*/
     .container-activities {
         height: 120vh;
+        margin-top: 120px;
     }
     .activities h1 {
         font-size: 20px;
     }
     .activities p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .container-cards {
         display: flex;
@@ -628,17 +630,17 @@ ul li a .txt-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        box-shadow: none;
     }
     .img-card img {
-        width: 75px;
-        height: 75px;
+        width: 90px;
+        height: 90px;
     }
     .cards h1 {
-        font-size: 15px;
+        font-size: 12px;
     }
     .cards p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .button-sobre a {
         padding: 5px 6px;
@@ -658,7 +660,7 @@ ul li a .txt-menu {
     .wrapper {
         width: 180px;
         height: 150px;
-        margin-top: 85px;
+        margin-top: 70px;
         
     }
     .pedestal {
@@ -670,11 +672,20 @@ ul li a .txt-menu {
         height: 300px;
         margin-top: 70%;
     }
-
+    .eventos h1 {
+        font-size: 20px;
+    }
+    .eventos p {
+        font-size: 10px;
+    }
     /*----------------------------doação----------------------------*/
     .container-carrosel {
         width: 70%;
-        height: 60%;
+        height:50%;
+        margin-left: 25px;
+    }
+    .container-doacao h1 {
+        font-size: 20px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {

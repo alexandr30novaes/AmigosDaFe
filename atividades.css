@@ -159,10 +159,10 @@ body {
 
     /*----------------------------atividades----------------------------*/
     .atividade-idoso p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .atividade-creche p {
-        font-size: 12px;
+        font-size: 11px;
     }
     /*----------------------------end----------------------------*/
     .end-link h1 {
@@ -173,5 +173,9 @@ body {
     }
     .end-link a {
         font-size: 10px;
+    }
+    /*----------------------------whats----------------------------*/
+    .whats a {
+        font-size: 40px;
     }
 }
